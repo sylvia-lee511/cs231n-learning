@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Datasets and caches
+data/
+**/data/
+.cache/
+data_visual_world_model/
+*.npz
+*.npy
+
+# Model weights and checkpoints
+*.pt
+*.pth
+*.ckpt
+checkpoints/
+runs/
+
+# Editor and system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
